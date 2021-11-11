@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Video stream sample</title>
+  </head>
+  <body>
+    <video id="videoPlayer" controls  autoplay> 
+      <source src="/video" type="video/mkv">
+    </video>
+    <form action="http://localhost:5000/watch" method="GET">
+      <label for="x">Video Number</label><br>
+      <input type="number" id="x" name="x" value="x"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </body> 
+</html>
